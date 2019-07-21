@@ -28,7 +28,7 @@ public class calculator extends JFrame {
 	}
 
 	/**
-	 * Create the frame. and launch &
+	 * Create the frame.
 	 */
 	public calculator() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
