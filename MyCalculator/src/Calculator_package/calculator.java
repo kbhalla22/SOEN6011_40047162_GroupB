@@ -56,11 +56,12 @@ public class calculator extends JFrame {
 			txt_display_1.setText(Double.toString(answer));
 			break;
 		case 5:
-			answer=  calculateSin(numb);
+			answer = calculateSin(numb);
 			txt_display_1.setText(Double.toString(answer));
 		}
 
 	}
+
 	static double calculateSin(double x) {
 
 		// convert x to an angle between -2 PI and 2 PI
@@ -79,11 +80,11 @@ public class calculator extends JFrame {
 		}
 		// return sum;
 		// double deg ;
-	//	double deg = sum * Math.PI / 180;
+		// double deg = sum * Math.PI / 180;
 		double square = sum * sum;
 		double diff = 1 - square;
-		double sqrt_result=sqrt(diff);
-		double finalans=sum/sqrt_result;
+		double sqrt_result = sqrt(diff);
+		double finalans = sum / sqrt_result;
 		return finalans;
 
 	}
@@ -97,8 +98,8 @@ public class calculator extends JFrame {
 			t = squareRoot;
 			squareRoot = (t + (number / t)) / 2;
 		} while ((t - squareRoot) != 0);
-		//double tanx = sum / squareRoot;
-		//System.out.println(tanx);
+		// double tanx = sum / squareRoot;
+		// System.out.println(tanx);
 		return squareRoot;
 	}
 
@@ -117,7 +118,7 @@ public class calculator extends JFrame {
 
 		txt_display_1 = new JTextField();
 		txt_display_1.setHorizontalAlignment(SwingConstants.RIGHT);
-		txt_display_1.setBounds(5, 28, 440, 46);
+		txt_display_1.setBounds(5, 28, 439, 46);
 		contentPane.add(txt_display_1);
 		txt_display_1.setColumns(10);
 
@@ -136,7 +137,7 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + "2");
 			}
 		});
-		two.setBounds(91, 73, 64, 52);
+		two.setBounds(105, 73, 64, 52);
 		contentPane.add(two);
 
 		JButton three = new JButton("3");
@@ -146,7 +147,7 @@ public class calculator extends JFrame {
 
 			}
 		});
-		three.setBounds(181, 73, 64, 52);
+		three.setBounds(201, 73, 64, 52);
 		contentPane.add(three);
 
 		JButton add = new JButton("+");
@@ -163,7 +164,7 @@ public class calculator extends JFrame {
 
 			}
 		});
-		add.setBounds(275, 73, 64, 52);
+		add.setBounds(292, 123, 64, 52);
 		contentPane.add(add);
 
 		JButton subtract = new JButton("-");
@@ -179,7 +180,7 @@ public class calculator extends JFrame {
 				lbl.setText(numb + "-");
 			}
 		});
-		subtract.setBounds(363, 73, 64, 52);
+		subtract.setBounds(380, 123, 64, 52);
 		contentPane.add(subtract);
 
 		JButton four = new JButton("4");
@@ -197,7 +198,7 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + "5");
 			}
 		});
-		five.setBounds(91, 123, 64, 52);
+		five.setBounds(105, 123, 64, 52);
 		contentPane.add(five);
 
 		JButton six = new JButton("6");
@@ -206,11 +207,11 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + "6");
 			}
 		});
-		six.setBounds(181, 123, 64, 52);
+		six.setBounds(201, 123, 64, 52);
 		contentPane.add(six);
 
 		JButton multiply = new JButton("*");
-		multiply.setBounds(275, 123, 64, 52);
+		multiply.setBounds(292, 173, 64, 52);
 		contentPane.add(multiply);
 
 		JButton divide = new JButton("/");
@@ -218,7 +219,7 @@ public class calculator extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		divide.setBounds(363, 123, 64, 52);
+		divide.setBounds(380, 173, 64, 52);
 		contentPane.add(divide);
 
 		JButton seven = new JButton("7");
@@ -236,7 +237,7 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + "8");
 			}
 		});
-		eight.setBounds(91, 173, 64, 52);
+		eight.setBounds(105, 173, 64, 52);
 		contentPane.add(eight);
 
 		JButton nine = new JButton("9");
@@ -245,7 +246,7 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + "9");
 			}
 		});
-		nine.setBounds(181, 173, 64, 52);
+		nine.setBounds(201, 173, 64, 52);
 		contentPane.add(nine);
 
 		JButton tan = new JButton("tan");
@@ -258,11 +259,11 @@ public class calculator extends JFrame {
 				lbl.setBounds(366, 6, 61, 16);
 				contentPane.add(lbl);
 
-				lbl.setText("tan of"+ numb);
-				
+				lbl.setText("tan of" + numb);
+
 			}
 		});
-		tan.setBounds(275, 173, 64, 52);
+		tan.setBounds(201, 226, 64, 52);
 		contentPane.add(tan);
 
 		JButton button_13 = new JButton(".");
@@ -271,7 +272,7 @@ public class calculator extends JFrame {
 				txt_display_1.setText(txt_display_1.getText() + ".");
 			}
 		});
-		button_13.setBounds(363, 173, 64, 52);
+		button_13.setBounds(5, 226, 64, 52);
 		contentPane.add(button_13);
 
 		JButton backspace = new JButton("BackSpace");
@@ -289,10 +290,10 @@ public class calculator extends JFrame {
 				}
 			}
 		});
-		backspace.setBounds(41, 226, 103, 52);
+		backspace.setBounds(292, 73, 152, 52);
 		contentPane.add(backspace);
 
-		JButton button_1 = new JButton("Equals");
+		JButton button_1 = new JButton("=");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JLabel lbl = new JLabel("calci");
@@ -304,7 +305,7 @@ public class calculator extends JFrame {
 
 			}
 		});
-		button_1.setBounds(169, 226, 103, 52);
+		button_1.setBounds(380, 226, 64, 52);
 		contentPane.add(button_1);
 
 		JButton button_2 = new JButton("C");
@@ -314,8 +315,12 @@ public class calculator extends JFrame {
 
 			}
 		});
-		button_2.setBounds(275, 226, 112, 52);
+		button_2.setBounds(292, 226, 64, 52);
 		contentPane.add(button_2);
+
+		JButton zero = new JButton("0");
+		zero.setBounds(105, 226, 64, 52);
+		contentPane.add(zero);
 
 	}
 }
