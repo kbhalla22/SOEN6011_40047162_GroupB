@@ -6,15 +6,20 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.text.JTextComponent;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.SwingConstants;
+import javax.swing.JLabel;
 
 public class calculator extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
+	private JTextField txt_display_1;
+	double numb, answer;
+	int calculation;
 
 	/**
 	 * Launch the application.
@@ -32,96 +37,285 @@ public class calculator extends JFrame {
 		});
 	}
 
+	public void arithmetic_operations() {
+		switch (calculation) {
+		case 1:
+			answer = numb + Double.parseDouble(txt_display_1.getText());
+			txt_display_1.setText(Double.toString(answer));
+			break;
+		case 2:
+			answer = numb - Double.parseDouble(txt_display_1.getText());
+			txt_display_1.setText(Double.toString(answer));
+			break;
+		case 3:
+			answer = numb * Double.parseDouble(txt_display_1.getText());
+			txt_display_1.setText(Double.toString(answer));
+			break;
+		case 4:
+			answer = numb / Double.parseDouble(txt_display_1.getText());
+			txt_display_1.setText(Double.toString(answer));
+			break;
+		case 5:
+			answer=  calculateSin(numb);
+			txt_display_1.setText(Double.toString(answer));
+		}
+
+	}
+	static double calculateSin(double x) {
+
+		// convert x to an angle between -2 PI and 2 PI
+		x = x % (2 * Math.PI);
+
+		// compute the Taylor series approximation
+		double term = 1.0; // ith term = x^i / i!
+		double sum = 0.0; // sum of first i terms in taylor series
+
+		for (int i = 1; term != 0.0; i++) {
+			term *= (x / i);
+			if (i % 4 == 1)
+				sum += term;
+			if (i % 4 == 3)
+				sum -= term;
+		}
+		// return sum;
+		// double deg ;
+	//	double deg = sum * Math.PI / 180;
+		double square = sum * sum;
+		double diff = 1 - square;
+		double sqrt_result=sqrt(diff);
+		double finalans=sum/sqrt_result;
+		return finalans;
+
+	}
+
+	static double sqrt(double number) {
+		double t;
+
+		double squareRoot = number / 2;
+
+		do {
+			t = squareRoot;
+			squareRoot = (t + (number / t)) / 2;
+		} while ((t - squareRoot) != 0);
+		//double tanx = sum / squareRoot;
+		//System.out.println(tanx);
+		return squareRoot;
+	}
+
 	/**
 	 * Create the frame.
 	 */
 	public calculator() {
+		setResizable(false);
+		setTitle("Calculator");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
-		textField = new JTextField();
-		textField.setBounds(5, 5, 440, 46);
-		contentPane.add(textField);
-		textField.setColumns(10);
-		
+
+		txt_display_1 = new JTextField();
+		txt_display_1.setHorizontalAlignment(SwingConstants.RIGHT);
+		txt_display_1.setBounds(5, 28, 440, 46);
+		contentPane.add(txt_display_1);
+		txt_display_1.setColumns(10);
+
 		JButton C = new JButton("1");
 		C.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "1");
 			}
 		});
-		C.setBounds(5, 48, 64, 52);
+		C.setBounds(5, 73, 64, 52);
 		contentPane.add(C);
-		
+
 		JButton two = new JButton("2");
-		two.setBounds(91, 48, 64, 52);
+		two.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "2");
+			}
+		});
+		two.setBounds(91, 73, 64, 52);
 		contentPane.add(two);
-		
-		JButton Three = new JButton("3");
-		Three.setBounds(181, 48, 64, 52);
-		contentPane.add(Three);
-		
+
+		JButton three = new JButton("3");
+		three.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "3");
+
+			}
+		});
+		three.setBounds(181, 73, 64, 52);
+		contentPane.add(three);
+
 		JButton add = new JButton("+");
-		add.setBounds(275, 48, 64, 52);
+		add.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				numb = Double.parseDouble(txt_display_1.getText());
+				calculation = 1;
+				txt_display_1.setText("");
+				JLabel lbl = new JLabel("calci");
+				lbl.setBounds(366, 6, 61, 16);
+				contentPane.add(lbl);
+
+				lbl.setText(numb + "+");
+
+			}
+		});
+		add.setBounds(275, 73, 64, 52);
 		contentPane.add(add);
-		
+
 		JButton subtract = new JButton("-");
-		subtract.setBounds(363, 48, 64, 52);
+		subtract.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				numb = Double.parseDouble(txt_display_1.getText());
+				calculation = 2;
+				txt_display_1.setText("");
+				JLabel lbl = new JLabel("calci");
+				lbl.setBounds(366, 6, 61, 16);
+				contentPane.add(lbl);
+
+				lbl.setText(numb + "-");
+			}
+		});
+		subtract.setBounds(363, 73, 64, 52);
 		contentPane.add(subtract);
-		
+
 		JButton four = new JButton("4");
-		four.setBounds(5, 100, 64, 52);
+		four.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "4");
+			}
+		});
+		four.setBounds(5, 123, 64, 52);
 		contentPane.add(four);
-		
+
 		JButton five = new JButton("5");
-		five.setBounds(91, 100, 64, 52);
+		five.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "5");
+			}
+		});
+		five.setBounds(91, 123, 64, 52);
 		contentPane.add(five);
-		
+
 		JButton six = new JButton("6");
-		six.setBounds(181, 100, 64, 52);
+		six.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "6");
+			}
+		});
+		six.setBounds(181, 123, 64, 52);
 		contentPane.add(six);
-		
+
 		JButton multiply = new JButton("*");
-		multiply.setBounds(275, 100, 64, 52);
+		multiply.setBounds(275, 123, 64, 52);
 		contentPane.add(multiply);
-		
+
 		JButton divide = new JButton("/");
-		divide.setBounds(363, 100, 64, 52);
+		divide.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		divide.setBounds(363, 123, 64, 52);
 		contentPane.add(divide);
-		
+
 		JButton seven = new JButton("7");
-		seven.setBounds(5, 154, 64, 52);
+		seven.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "7");
+			}
+		});
+		seven.setBounds(5, 173, 64, 52);
 		contentPane.add(seven);
-		
+
 		JButton eight = new JButton("8");
-		eight.setBounds(91, 154, 64, 52);
+		eight.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "8");
+			}
+		});
+		eight.setBounds(91, 173, 64, 52);
 		contentPane.add(eight);
-		
+
 		JButton nine = new JButton("9");
-		nine.setBounds(181, 154, 64, 52);
+		nine.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "9");
+			}
+		});
+		nine.setBounds(181, 173, 64, 52);
 		contentPane.add(nine);
-		
+
 		JButton tan = new JButton("tan");
-		tan.setBounds(275, 154, 64, 52);
+		tan.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				numb = Double.parseDouble(txt_display_1.getText());
+				calculation = 5;
+				txt_display_1.setText("");
+				JLabel lbl = new JLabel("calci");
+				lbl.setBounds(366, 6, 61, 16);
+				contentPane.add(lbl);
+
+				lbl.setText("tan of"+ numb);
+				
+			}
+		});
+		tan.setBounds(275, 173, 64, 52);
 		contentPane.add(tan);
-		
-		JButton button_13 = new JButton("New button");
-		button_13.setBounds(363, 154, 64, 52);
+
+		JButton button_13 = new JButton(".");
+		button_13.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + ".");
+			}
+		});
+		button_13.setBounds(363, 173, 64, 52);
 		contentPane.add(button_13);
-		
-		JButton button = new JButton("New button");
-		button.setBounds(91, 206, 64, 52);
-		contentPane.add(button);
-		
-		JButton button_1 = new JButton("New button");
-		button_1.setBounds(181, 206, 64, 52);
+
+		JButton backspace = new JButton("BackSpace");
+		backspace.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int length = txt_display_1.getText().length();
+				int number = txt_display_1.getText().length() - 1;
+				String store;
+
+				if (length > 0) {
+					StringBuilder back = new StringBuilder(txt_display_1.getText());
+					back.deleteCharAt(number);
+					store = back.toString();
+					txt_display_1.setText(store);
+				}
+			}
+		});
+		backspace.setBounds(41, 226, 103, 52);
+		contentPane.add(backspace);
+
+		JButton button_1 = new JButton("Equals");
+		button_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JLabel lbl = new JLabel("calci");
+				lbl.setBounds(366, 6, 61, 16);
+				contentPane.add(lbl);
+
+				lbl.setText("");
+				arithmetic_operations();
+
+			}
+		});
+		button_1.setBounds(169, 226, 103, 52);
 		contentPane.add(button_1);
-		
-		JButton button_2 = new JButton("New button");
-		button_2.setBounds(275, 206, 64, 52);
+
+		JButton button_2 = new JButton("C");
+		button_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText("");
+
+			}
+		});
+		button_2.setBounds(275, 226, 112, 52);
 		contentPane.add(button_2);
+
 	}
 }
