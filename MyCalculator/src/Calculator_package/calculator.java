@@ -1,6 +1,7 @@
 package Calculator_package;
 
 import java.awt.BorderLayout;
+import java.awt.Container;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -17,10 +18,12 @@ import javax.swing.JLabel;
 public class calculator extends JFrame {
 
 	private JPanel contentPane;
+	private JPanel panel;
 	private JTextField txt_display_1;
 	double numb, answer;
 	int calculation;
-
+	
+	
 	/**
 	 * Launch the application.
 	 */
@@ -40,22 +43,35 @@ public class calculator extends JFrame {
 	public void arithmetic_operations() {
 		switch (calculation) {
 		case 1:
+			if(txt_display_1.getText().isEmpty()) {
+				txt_display_1.setText("Please enter the number to add");
+			} else {
 			answer = numb + Double.parseDouble(txt_display_1.getText());
-			txt_display_1.setText(Double.toString(answer));
+			txt_display_1.setText(Double.toString(answer));}
 			break;
 		case 2:
+			if(txt_display_1.getText().isEmpty()) {
+				txt_display_1.setText("Please enter the number to subtract");
+			} else {
 			answer = numb - Double.parseDouble(txt_display_1.getText());
-			txt_display_1.setText(Double.toString(answer));
+			txt_display_1.setText(Double.toString(answer));}
 			break;
 		case 3:
+			if(txt_display_1.getText().isEmpty()) {
+				txt_display_1.setText("Please enter the number to multiply");
+			} else {
 			answer = numb * Double.parseDouble(txt_display_1.getText());
-			txt_display_1.setText(Double.toString(answer));
+			txt_display_1.setText(Double.toString(answer));}
 			break;
 		case 4:
+			if(txt_display_1.getText().isEmpty()) {
+				txt_display_1.setText("Please enter the number to divide");
+			} else {
 			answer = numb / Double.parseDouble(txt_display_1.getText());
-			txt_display_1.setText(Double.toString(answer));
+			txt_display_1.setText(Double.toString(answer));}
 			break;
 		case 5:
+			
 			answer = calculateSin(numb);
 			txt_display_1.setText(Double.toString(answer));
 		}
@@ -121,6 +137,10 @@ public class calculator extends JFrame {
 		txt_display_1.setBounds(5, 28, 439, 46);
 		contentPane.add(txt_display_1);
 		txt_display_1.setColumns(10);
+		
+		JLabel lbl = new JLabel(" ");
+		lbl.setBounds(366, 6, 61, 16);
+		contentPane.add(lbl);
 
 		JButton C = new JButton("1");
 		C.addActionListener(new ActionListener() {
@@ -153,16 +173,19 @@ public class calculator extends JFrame {
 		JButton add = new JButton("+");
 		add.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				numb = Double.parseDouble(txt_display_1.getText());
-				calculation = 1;
-				txt_display_1.setText("");
-				JLabel lbl = new JLabel("calci");
-				lbl.setBounds(366, 6, 61, 16);
-				contentPane.add(lbl);
-
-				lbl.setText(numb + "+");
+				if(txt_display_1.getText().isEmpty()) {
+					txt_display_1.setText("Please Enter a number first");
+				
 
 			}
+				else {
+					numb = Double.parseDouble(txt_display_1.getText());
+					calculation = 1;
+					txt_display_1.setText("");
+					
+
+					lbl.setText(numb + "+");
+				}} 
 		});
 		add.setBounds(292, 123, 64, 52);
 		contentPane.add(add);
@@ -173,9 +196,7 @@ public class calculator extends JFrame {
 				numb = Double.parseDouble(txt_display_1.getText());
 				calculation = 2;
 				txt_display_1.setText("");
-				JLabel lbl = new JLabel("calci");
-				lbl.setBounds(366, 6, 61, 16);
-				contentPane.add(lbl);
+				
 
 				lbl.setText(numb + "-");
 			}
@@ -211,12 +232,28 @@ public class calculator extends JFrame {
 		contentPane.add(six);
 
 		JButton multiply = new JButton("*");
+		multiply.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				numb = Double.parseDouble(txt_display_1.getText());
+				calculation = 3;
+				txt_display_1.setText("");
+				
+
+				lbl.setText(numb + "*");
+			}
+		});
 		multiply.setBounds(292, 173, 64, 52);
 		contentPane.add(multiply);
 
 		JButton divide = new JButton("/");
 		divide.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				numb = Double.parseDouble(txt_display_1.getText());
+				calculation = 4;
+				txt_display_1.setText("");
+				
+
+				lbl.setText(numb + "/");
 			}
 		});
 		divide.setBounds(380, 173, 64, 52);
@@ -248,20 +285,24 @@ public class calculator extends JFrame {
 		});
 		nine.setBounds(201, 173, 64, 52);
 		contentPane.add(nine);
-
+		
+	
+		
 		JButton tan = new JButton("tan");
 		tan.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				numb = Double.parseDouble(txt_display_1.getText());
+				if(txt_display_1.getText().isEmpty()) {
+					txt_display_1.setText("Please Enter a number first & then press Tan");
+				}
+				else {	numb = Double.parseDouble(txt_display_1.getText());
 				calculation = 5;
 				txt_display_1.setText("");
-				JLabel lbl = new JLabel("calci");
-				lbl.setBounds(366, 6, 61, 16);
-				contentPane.add(lbl);
+				
+			
 
-				lbl.setText("tan of" + numb);
+				lbl.setText("Tan(" + numb+")");
 
-			}
+			}}
 		});
 		tan.setBounds(201, 226, 64, 52);
 		contentPane.add(tan);
@@ -296,11 +337,10 @@ public class calculator extends JFrame {
 		JButton button_1 = new JButton("=");
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JLabel lbl = new JLabel("calci");
-				lbl.setBounds(366, 6, 61, 16);
-				contentPane.add(lbl);
-
-				lbl.setText("");
+				
+				lbl.setText(" ");
+				
+				
 				arithmetic_operations();
 
 			}
@@ -312,6 +352,7 @@ public class calculator extends JFrame {
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				txt_display_1.setText("");
+			
 
 			}
 		});
@@ -319,8 +360,21 @@ public class calculator extends JFrame {
 		contentPane.add(button_2);
 
 		JButton zero = new JButton("0");
+		zero.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				txt_display_1.setText(txt_display_1.getText() + "0");
+			}
+		});
 		zero.setBounds(105, 226, 64, 52);
 		contentPane.add(zero);
+		
+		
+		
+	
+	
+		
+		
+		 
 
 	}
 }
