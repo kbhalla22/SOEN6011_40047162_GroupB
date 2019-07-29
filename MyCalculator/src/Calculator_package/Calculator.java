@@ -544,7 +544,7 @@ public class Calculator extends JFrame {
 		contentPane.add(dot);
 
 		/**
-		 * Seeting up the button & logic for backspace
+		 * Setting up the button & logic for backspace
 		 */
 		JButton backSpace = new JButton("BackSpace");
 		backSpace.addActionListener(new ActionListener() {
