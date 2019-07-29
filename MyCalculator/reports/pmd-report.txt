@@ -1,0 +1,822 @@
+src/Calculator_package/Calculator.java:1:	PackageCase: Package name contains upper case characters
+src/Calculator_package/Calculator.java:1:	PackageCase: Package name contains upper case characters
+src/Calculator_package/Calculator.java:17:	CommentRequired: Header comments are required
+src/Calculator_package/Calculator.java:17:	CommentRequired: Header comments are required
+src/Calculator_package/Calculator.java:17:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/Calculator_package/Calculator.java:17:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/Calculator_package/Calculator.java:17:	ModifiedCyclomaticComplexity: The class 'Calculator' has a Modified Cyclomatic Complexity of 7 (Highest = 37).
+src/Calculator_package/Calculator.java:17:	ModifiedCyclomaticComplexity: The class 'Calculator' has a Modified Cyclomatic Complexity of 7 (Highest = 37).
+src/Calculator_package/Calculator.java:17:	StdCyclomaticComplexity: The class 'Calculator' has a Standard Cyclomatic Complexity of 7 (Highest = 37).
+src/Calculator_package/Calculator.java:17:	StdCyclomaticComplexity: The class 'Calculator' has a Standard Cyclomatic Complexity of 7 (Highest = 37).
+src/Calculator_package/Calculator.java:21:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:21:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:22:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/Calculator_package/Calculator.java:22:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/Calculator_package/Calculator.java:23:	CommentRequired: Public method and constructor comments are required
+src/Calculator_package/Calculator.java:23:	CommentRequired: Public method and constructor comments are required
+src/Calculator_package/Calculator.java:23:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:23:	MissingOverride: The method 'run()' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:25:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/Calculator_package/Calculator.java:25:	LocalVariableCouldBeFinal: Local variable 'frame' could be declared final
+src/Calculator_package/Calculator.java:27:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Calculator_package/Calculator.java:27:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/Calculator_package/Calculator.java:28:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/Calculator_package/Calculator.java:28:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/Calculator_package/Calculator.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:37:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:37:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:37:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:37:	ImmutableField: Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Calculator_package/Calculator.java:37:	ImmutableField: Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/Calculator_package/Calculator.java:37:	SingularField: Perhaps 'contentPane' could be replaced by a local variable.
+src/Calculator_package/Calculator.java:37:	SingularField: Perhaps 'contentPane' could be replaced by a local variable.
+src/Calculator_package/Calculator.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:41:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:41:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:41:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:41:	ImmutableField: Private field 'textDisplay' could be made final; it is only initialized in the declaration or constructor.
+src/Calculator_package/Calculator.java:41:	ImmutableField: Private field 'textDisplay' could be made final; it is only initialized in the declaration or constructor.
+src/Calculator_package/Calculator.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:46:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:46:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the number1 field if you want a default access modifier
+src/Calculator_package/Calculator.java:46:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the number1 field if you want a default access modifier
+src/Calculator_package/Calculator.java:46:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:46:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:46:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:46:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:46:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Calculator_package/Calculator.java:46:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/Calculator_package/Calculator.java:52:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:52:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:52:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculation field if you want a default access modifier
+src/Calculator_package/Calculator.java:52:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the calculation field if you want a default access modifier
+src/Calculator_package/Calculator.java:52:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:52:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:52:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:52:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:57:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:57:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/Calculator_package/Calculator.java:57:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the errorMessageList field if you want a default access modifier
+src/Calculator_package/Calculator.java:57:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the errorMessageList field if you want a default access modifier
+src/Calculator_package/Calculator.java:57:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:57:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:57:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:57:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/Calculator_package/Calculator.java:57:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/Calculator_package/Calculator.java:57:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/Calculator_package/Calculator.java:65:	CyclomaticComplexity: The method 'arithmeticOperations(int, double)' has a cyclomatic complexity of 11.
+src/Calculator_package/Calculator.java:65:	CyclomaticComplexity: The method 'arithmeticOperations(int, double)' has a cyclomatic complexity of 11.
+src/Calculator_package/Calculator.java:65:	MethodArgumentCouldBeFinal: Parameter 'calculation' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:65:	MethodArgumentCouldBeFinal: Parameter 'calculation' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:65:	MethodArgumentCouldBeFinal: Parameter 'number1' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:65:	MethodArgumentCouldBeFinal: Parameter 'number1' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:65:	StdCyclomaticComplexity: The method 'arithmeticOperations' has a Standard Cyclomatic Complexity of 11.
+src/Calculator_package/Calculator.java:65:	StdCyclomaticComplexity: The method 'arithmeticOperations' has a Standard Cyclomatic Complexity of 11.
+src/Calculator_package/Calculator.java:66:	MissingBreakInSwitch: A switch statement does not contain a break
+src/Calculator_package/Calculator.java:66:	MissingBreakInSwitch: A switch statement does not contain a break
+src/Calculator_package/Calculator.java:66:	SwitchStmtsShouldHaveDefault: Switch statements should have a default label
+src/Calculator_package/Calculator.java:66:	SwitchStmtsShouldHaveDefault: Switch statements should have a default label
+src/Calculator_package/Calculator.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:69:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:71:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:71:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:80:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:82:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:82:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:93:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:93:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:102:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:102:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:104:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:104:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/Calculator_package/Calculator.java:109:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:109:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:109:	UseUnderscoresInNumericLiterals: Number 1234567 should separate every third digit with an underscore
+src/Calculator_package/Calculator.java:109:	UseUnderscoresInNumericLiterals: Number 1234567 should separate every third digit with an underscore
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'al1' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'al1' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'number2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'number2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'parsedNumber' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:131:	MethodArgumentCouldBeFinal: Parameter 'parsedNumber' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'karry' (lines '132'-'136').
+src/Calculator_package/Calculator.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'karry' (lines '132'-'136').
+src/Calculator_package/Calculator.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'karry' (lines '132'-'139').
+src/Calculator_package/Calculator.java:133:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'karry' (lines '132'-'139').
+src/Calculator_package/Calculator.java:135:	LocalVariableCouldBeFinal: Local variable 'error1' could be declared final
+src/Calculator_package/Calculator.java:135:	LocalVariableCouldBeFinal: Local variable 'error1' could be declared final
+src/Calculator_package/Calculator.java:137:	UseUnderscoresInNumericLiterals: Number 1234567 should separate every third digit with an underscore
+src/Calculator_package/Calculator.java:137:	UseUnderscoresInNumericLiterals: Number 1234567 should separate every third digit with an underscore
+src/Calculator_package/Calculator.java:152:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:152:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:152:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:152:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:163:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:163:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:163:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:163:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:174:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:174:	MethodArgumentCouldBeFinal: Parameter 'numb2' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:174:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:174:	MethodArgumentCouldBeFinal: Parameter 'parseDouble' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:185:	AvoidReassigningParameters: Avoid reassigning parameters such as 'inputTan'
+src/Calculator_package/Calculator.java:185:	AvoidReassigningParameters: Avoid reassigning parameters such as 'inputTan'
+src/Calculator_package/Calculator.java:194:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'i' (lines '193'-'210').
+src/Calculator_package/Calculator.java:194:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'i' (lines '193'-'210').
+src/Calculator_package/Calculator.java:195:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:195:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:196:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:196:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:196:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/Calculator_package/Calculator.java:196:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/Calculator_package/Calculator.java:197:	ControlStatementBraces: This statement should have braces
+src/Calculator_package/Calculator.java:197:	ControlStatementBraces: This statement should have braces
+src/Calculator_package/Calculator.java:198:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:198:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Calculator_package/Calculator.java:198:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/Calculator_package/Calculator.java:198:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/Calculator_package/Calculator.java:199:	ControlStatementBraces: This statement should have braces
+src/Calculator_package/Calculator.java:199:	ControlStatementBraces: This statement should have braces
+src/Calculator_package/Calculator.java:202:	LocalVariableCouldBeFinal: Local variable 'square' could be declared final
+src/Calculator_package/Calculator.java:202:	LocalVariableCouldBeFinal: Local variable 'square' could be declared final
+src/Calculator_package/Calculator.java:204:	LocalVariableCouldBeFinal: Local variable 'diff' could be declared final
+src/Calculator_package/Calculator.java:204:	LocalVariableCouldBeFinal: Local variable 'diff' could be declared final
+src/Calculator_package/Calculator.java:206:	LocalVariableCouldBeFinal: Local variable 'sqrt_Result' could be declared final
+src/Calculator_package/Calculator.java:206:	LocalVariableCouldBeFinal: Local variable 'sqrt_Result' could be declared final
+src/Calculator_package/Calculator.java:206:	LocalVariableNamingConventions: The local variable name 'sqrt_Result' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Calculator_package/Calculator.java:206:	LocalVariableNamingConventions: The local variable name 'sqrt_Result' doesn't match '[a-z][a-zA-Z0-9]*'
+src/Calculator_package/Calculator.java:206:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'sqrt_Result' is not final.
+src/Calculator_package/Calculator.java:206:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'sqrt_Result' is not final.
+src/Calculator_package/Calculator.java:208:	LocalVariableCouldBeFinal: Local variable 'finalAnswer' could be declared final
+src/Calculator_package/Calculator.java:208:	LocalVariableCouldBeFinal: Local variable 'finalAnswer' could be declared final
+src/Calculator_package/Calculator.java:209:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'finalAnswer'
+src/Calculator_package/Calculator.java:209:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'finalAnswer'
+src/Calculator_package/Calculator.java:219:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sqrt method if you want a default access modifier
+src/Calculator_package/Calculator.java:219:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sqrt method if you want a default access modifier
+src/Calculator_package/Calculator.java:219:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:219:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Calculator_package/Calculator.java:219:	MethodArgumentCouldBeFinal: Parameter 'number' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:219:	MethodArgumentCouldBeFinal: Parameter 'number' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:220:	ShortVariable: Avoid variables with short names like t
+src/Calculator_package/Calculator.java:220:	ShortVariable: Avoid variables with short names like t
+src/Calculator_package/Calculator.java:227:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:227:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:235:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/Calculator_package/Calculator.java:235:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/Calculator_package/Calculator.java:235:	ExcessiveMethodLength: Avoid really long methods.
+src/Calculator_package/Calculator.java:235:	ExcessiveMethodLength: Avoid really long methods.
+src/Calculator_package/Calculator.java:235:	ModifiedCyclomaticComplexity: The constructor 'Calculator' has a Modified Cyclomatic Complexity of 37.
+src/Calculator_package/Calculator.java:235:	ModifiedCyclomaticComplexity: The constructor 'Calculator' has a Modified Cyclomatic Complexity of 37.
+src/Calculator_package/Calculator.java:235:	NPathComplexity: The constructor 'Calculator()' has an NPath complexity of 4096
+src/Calculator_package/Calculator.java:235:	NPathComplexity: The constructor 'Calculator()' has an NPath complexity of 4096
+src/Calculator_package/Calculator.java:235:	NcssCount: The constructor 'Calculator()' has a NCSS line count of 93.
+src/Calculator_package/Calculator.java:235:	NcssCount: The constructor 'Calculator()' has a NCSS line count of 93.
+src/Calculator_package/Calculator.java:235:	StdCyclomaticComplexity: The constructor 'Calculator' has a Standard Cyclomatic Complexity of 37.
+src/Calculator_package/Calculator.java:235:	StdCyclomaticComplexity: The constructor 'Calculator' has a Standard Cyclomatic Complexity of 37.
+src/Calculator_package/Calculator.java:256:	LocalVariableCouldBeFinal: Local variable 'lbl' could be declared final
+src/Calculator_package/Calculator.java:256:	LocalVariableCouldBeFinal: Local variable 'lbl' could be declared final
+src/Calculator_package/Calculator.java:264:	LocalVariableCouldBeFinal: Local variable 'one' could be declared final
+src/Calculator_package/Calculator.java:264:	LocalVariableCouldBeFinal: Local variable 'one' could be declared final
+src/Calculator_package/Calculator.java:266:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:266:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:266:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:266:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:266:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:266:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:267:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:267:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:267:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:267:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:277:	LocalVariableCouldBeFinal: Local variable 'two' could be declared final
+src/Calculator_package/Calculator.java:277:	LocalVariableCouldBeFinal: Local variable 'two' could be declared final
+src/Calculator_package/Calculator.java:279:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:279:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:279:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:279:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:279:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:279:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:280:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:280:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:280:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:280:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:290:	LocalVariableCouldBeFinal: Local variable 'three' could be declared final
+src/Calculator_package/Calculator.java:290:	LocalVariableCouldBeFinal: Local variable 'three' could be declared final
+src/Calculator_package/Calculator.java:292:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:292:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:292:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:292:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:292:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:292:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:293:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:293:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:293:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:293:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:304:	LocalVariableCouldBeFinal: Local variable 'four' could be declared final
+src/Calculator_package/Calculator.java:304:	LocalVariableCouldBeFinal: Local variable 'four' could be declared final
+src/Calculator_package/Calculator.java:307:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:307:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:307:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:307:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:307:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:307:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:308:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:308:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:308:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:308:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:318:	LocalVariableCouldBeFinal: Local variable 'five' could be declared final
+src/Calculator_package/Calculator.java:318:	LocalVariableCouldBeFinal: Local variable 'five' could be declared final
+src/Calculator_package/Calculator.java:320:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:320:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:320:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:320:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:320:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:320:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:321:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:321:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:321:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:321:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:331:	LocalVariableCouldBeFinal: Local variable 'six' could be declared final
+src/Calculator_package/Calculator.java:331:	LocalVariableCouldBeFinal: Local variable 'six' could be declared final
+src/Calculator_package/Calculator.java:333:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:333:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:333:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:333:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:333:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:333:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:334:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:334:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:334:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:334:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:344:	LocalVariableCouldBeFinal: Local variable 'seven' could be declared final
+src/Calculator_package/Calculator.java:344:	LocalVariableCouldBeFinal: Local variable 'seven' could be declared final
+src/Calculator_package/Calculator.java:346:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:346:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:346:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:346:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:346:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:346:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:347:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:347:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:347:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:347:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:357:	LocalVariableCouldBeFinal: Local variable 'eight' could be declared final
+src/Calculator_package/Calculator.java:357:	LocalVariableCouldBeFinal: Local variable 'eight' could be declared final
+src/Calculator_package/Calculator.java:359:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:359:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:359:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:359:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:359:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:359:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:360:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:360:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:360:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:360:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:370:	LocalVariableCouldBeFinal: Local variable 'nine' could be declared final
+src/Calculator_package/Calculator.java:370:	LocalVariableCouldBeFinal: Local variable 'nine' could be declared final
+src/Calculator_package/Calculator.java:372:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:372:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:372:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:372:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:372:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:372:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:373:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:373:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:373:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:373:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:383:	LocalVariableCouldBeFinal: Local variable 'zero' could be declared final
+src/Calculator_package/Calculator.java:383:	LocalVariableCouldBeFinal: Local variable 'zero' could be declared final
+src/Calculator_package/Calculator.java:385:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:385:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:385:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:385:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:385:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:385:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:386:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:386:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:386:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:386:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:396:	LocalVariableCouldBeFinal: Local variable 'add' could be declared final
+src/Calculator_package/Calculator.java:396:	LocalVariableCouldBeFinal: Local variable 'add' could be declared final
+src/Calculator_package/Calculator.java:398:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:398:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:398:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:398:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:398:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:398:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:399:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:399:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:399:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:399:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:402:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:402:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:404:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:404:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:404:	AvoidDuplicateLiterals: The String literal "Please" appears 6 times in this file; the first occurrence is on line 403
+src/Calculator_package/Calculator.java:404:	AvoidDuplicateLiterals: The String literal "Please" appears 6 times in this file; the first occurrence is on line 403
+src/Calculator_package/Calculator.java:404:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:404:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:404:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:404:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:405:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:405:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:405:	AvoidDuplicateLiterals: The String literal " Please clear your screen to continue" appears 6 times in this file; the first occurrence is on line 404
+src/Calculator_package/Calculator.java:405:	AvoidDuplicateLiterals: The String literal " Please clear your screen to continue" appears 6 times in this file; the first occurrence is on line 404
+src/Calculator_package/Calculator.java:409:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:409:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:409:	AvoidDuplicateLiterals: The String literal ".*[a-zA-Z?!@#$%^&_().*{}|<>]" appears 5 times in this file; the first occurrence is on line 408
+src/Calculator_package/Calculator.java:409:	AvoidDuplicateLiterals: The String literal ".*[a-zA-Z?!@#$%^&_().*{}|<>]" appears 5 times in this file; the first occurrence is on line 408
+src/Calculator_package/Calculator.java:409:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:409:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:409:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:409:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:410:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:410:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:410:	AvoidDuplicateLiterals: The String literal " Please Enter a valid number" appears 5 times in this file; the first occurrence is on line 409
+src/Calculator_package/Calculator.java:410:	AvoidDuplicateLiterals: The String literal " Please Enter a valid number" appears 5 times in this file; the first occurrence is on line 409
+src/Calculator_package/Calculator.java:412:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:412:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:414:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:414:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:426:	LocalVariableCouldBeFinal: Local variable 'subtract' could be declared final
+src/Calculator_package/Calculator.java:426:	LocalVariableCouldBeFinal: Local variable 'subtract' could be declared final
+src/Calculator_package/Calculator.java:428:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:428:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:428:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:428:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:428:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:428:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:429:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:429:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:429:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:430:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:430:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:430:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:430:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:432:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:432:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:432:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:433:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:433:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:436:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:436:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:436:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:436:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:436:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:436:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:437:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:437:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:440:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:440:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:442:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:442:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:453:	LocalVariableCouldBeFinal: Local variable 'multiply' could be declared final
+src/Calculator_package/Calculator.java:453:	LocalVariableCouldBeFinal: Local variable 'multiply' could be declared final
+src/Calculator_package/Calculator.java:455:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:455:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:455:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:455:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:455:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:455:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:456:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:456:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:456:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:456:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:459:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:459:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:461:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:461:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:461:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:461:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:461:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:461:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:462:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:462:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:465:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:465:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:465:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:465:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:465:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:465:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:466:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:466:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:470:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:470:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:472:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:472:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:484:	LocalVariableCouldBeFinal: Local variable 'divide' could be declared final
+src/Calculator_package/Calculator.java:484:	LocalVariableCouldBeFinal: Local variable 'divide' could be declared final
+src/Calculator_package/Calculator.java:486:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:486:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:486:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:486:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:486:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:486:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:487:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:487:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:487:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:487:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:488:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:488:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:490:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:490:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:490:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:490:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:490:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:490:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:491:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:491:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:494:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:494:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:494:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:494:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:494:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:494:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:495:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:495:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:497:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:497:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:499:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:499:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:510:	LocalVariableCouldBeFinal: Local variable 'tan' could be declared final
+src/Calculator_package/Calculator.java:510:	LocalVariableCouldBeFinal: Local variable 'tan' could be declared final
+src/Calculator_package/Calculator.java:512:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:512:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:512:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:512:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:512:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:512:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:513:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:513:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:513:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:513:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:514:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:514:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:515:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:515:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:515:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:515:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:515:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:515:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:515:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:515:	UselessParentheses: Useless parentheses.
+src/Calculator_package/Calculator.java:516:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:516:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:519:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:519:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:519:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:519:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:519:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:519:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:520:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:520:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:522:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:522:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:524:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:524:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:537:	LocalVariableCouldBeFinal: Local variable 'dot' could be declared final
+src/Calculator_package/Calculator.java:537:	LocalVariableCouldBeFinal: Local variable 'dot' could be declared final
+src/Calculator_package/Calculator.java:539:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:539:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:539:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:539:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:539:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:539:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:540:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:540:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:540:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:540:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:549:	LocalVariableCouldBeFinal: Local variable 'backSpace' could be declared final
+src/Calculator_package/Calculator.java:549:	LocalVariableCouldBeFinal: Local variable 'backSpace' could be declared final
+src/Calculator_package/Calculator.java:551:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:551:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:551:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:551:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:551:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:551:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:552:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:552:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:552:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:552:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:552:	LocalVariableCouldBeFinal: Local variable 'length' could be declared final
+src/Calculator_package/Calculator.java:552:	LocalVariableCouldBeFinal: Local variable 'length' could be declared final
+src/Calculator_package/Calculator.java:553:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:553:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'number' (lines '552'-'600').
+src/Calculator_package/Calculator.java:553:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:553:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:553:	LocalVariableCouldBeFinal: Local variable 'number' could be declared final
+src/Calculator_package/Calculator.java:553:	LocalVariableCouldBeFinal: Local variable 'number' could be declared final
+src/Calculator_package/Calculator.java:557:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:557:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:557:	LocalVariableCouldBeFinal: Local variable 'back' could be declared final
+src/Calculator_package/Calculator.java:557:	LocalVariableCouldBeFinal: Local variable 'back' could be declared final
+src/Calculator_package/Calculator.java:560:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:560:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:570:	LocalVariableCouldBeFinal: Local variable 'equalsTo' could be declared final
+src/Calculator_package/Calculator.java:570:	LocalVariableCouldBeFinal: Local variable 'equalsTo' could be declared final
+src/Calculator_package/Calculator.java:572:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:572:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:572:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:572:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:572:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:572:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:573:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:573:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:573:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:573:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:573:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:573:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/Calculator_package/Calculator.java:574:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:574:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:590:	LocalVariableCouldBeFinal: Local variable 'clear' could be declared final
+src/Calculator_package/Calculator.java:590:	LocalVariableCouldBeFinal: Local variable 'clear' could be declared final
+src/Calculator_package/Calculator.java:592:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:592:	MethodArgumentCouldBeFinal: Parameter 'e' is not assigned and could be declared final
+src/Calculator_package/Calculator.java:592:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:592:	MissingOverride: The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/Calculator_package/Calculator.java:592:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:592:	ShortVariable: Avoid variables with short names like e
+src/Calculator_package/Calculator.java:594:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/Calculator_package/Calculator.java:594:	AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/test/Calculatortest.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/Calculatortest.java:14:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/Calculatortest.java:14:	CommentRequired: Header comments are required
+src/test/Calculatortest.java:14:	CommentRequired: Header comments are required
+src/test/Calculatortest.java:14:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/test/Calculatortest.java:14:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/test/Calculatortest.java:15:	CommentRequired: Field comments are required
+src/test/Calculatortest.java:15:	CommentRequired: Field comments are required
+src/test/Calculatortest.java:17:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:17:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:22:	MethodNamingConventions: The JUnit 4 test method name 'test_add' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:22:	MethodNamingConventions: The JUnit 4 test method name 'test_add' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:24:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:24:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:24:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:24:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:25:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:25:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:25:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:25:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:26:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:26:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:27:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:34:	LocalVariableCouldBeFinal: Local variable 'al2' could be declared final
+src/test/Calculatortest.java:34:	LocalVariableCouldBeFinal: Local variable 'al2' could be declared final
+src/test/Calculatortest.java:34:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/Calculatortest.java:34:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/Calculatortest.java:35:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:35:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:35:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:35:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:36:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:36:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:36:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:36:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:37:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/test/Calculatortest.java:37:	LocalVariableCouldBeFinal: Local variable 'error' could be declared final
+src/test/Calculatortest.java:39:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:39:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:44:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:44:	MethodNamingConventions: The JUnit 4 test method name 'test_subtract' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:44:	MethodNamingConventions: The JUnit 4 test method name 'test_subtract' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:45:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:45:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:45:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:45:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:46:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:46:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:46:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:46:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:47:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:47:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:48:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:52:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:52:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:52:	MethodNamingConventions: The JUnit 4 test method name 'test_multiply' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:52:	MethodNamingConventions: The JUnit 4 test method name 'test_multiply' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:53:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:53:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:53:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:53:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:54:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:54:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:54:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:54:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:55:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:55:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:56:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:56:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:60:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:60:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:60:	MethodNamingConventions: The JUnit 4 test method name 'test_divide' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:60:	MethodNamingConventions: The JUnit 4 test method name 'test_divide' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:61:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:61:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:61:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:61:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:62:	LocalVariableCouldBeFinal: Local variable 'al3' could be declared final
+src/test/Calculatortest.java:62:	LocalVariableCouldBeFinal: Local variable 'al3' could be declared final
+src/test/Calculatortest.java:62:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/Calculatortest.java:62:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/test/Calculatortest.java:63:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:63:	LocalVariableCouldBeFinal: Local variable 'y' could be declared final
+src/test/Calculatortest.java:63:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:63:	ShortVariable: Avoid variables with short names like y
+src/test/Calculatortest.java:64:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:64:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:65:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:65:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:69:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:69:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:69:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:69:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:70:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:70:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:70:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:70:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:71:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:71:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:72:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:72:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:72:	UseUnderscoresInNumericLiterals: Number 3.3805150062465894 should separate every third digit with an underscore
+src/test/Calculatortest.java:72:	UseUnderscoresInNumericLiterals: Number 3.3805150062465894 should separate every third digit with an underscore
+src/test/Calculatortest.java:76:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:76:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:76:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:76:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:77:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:77:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:77:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:77:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:78:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:78:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:79:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:79:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:79:	UseUnderscoresInNumericLiterals: Number 0.9357524720632461 should separate every third digit with an underscore
+src/test/Calculatortest.java:79:	UseUnderscoresInNumericLiterals: Number 0.9357524720632461 should separate every third digit with an underscore
+src/test/Calculatortest.java:83:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:83:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:83:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:83:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:84:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:84:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:84:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:84:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:85:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:85:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:86:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:86:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:86:	UseUnderscoresInNumericLiterals: Number 1.6197751905438684 should separate every third digit with an underscore
+src/test/Calculatortest.java:86:	UseUnderscoresInNumericLiterals: Number 1.6197751905438684 should separate every third digit with an underscore
+src/test/Calculatortest.java:90:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:90:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:90:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:90:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan4' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:91:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:91:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:91:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:91:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:92:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:92:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:93:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:93:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:93:	UseUnderscoresInNumericLiterals: Number 1.6858253705060295 should separate every third digit with an underscore
+src/test/Calculatortest.java:93:	UseUnderscoresInNumericLiterals: Number 1.6858253705060295 should separate every third digit with an underscore
+src/test/Calculatortest.java:97:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:97:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:97:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan5' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:97:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan5' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:98:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:98:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:98:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:98:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:99:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:99:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:100:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:100:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:100:	UseUnderscoresInNumericLiterals: Number 9.001181796295986 should separate every third digit with an underscore
+src/test/Calculatortest.java:100:	UseUnderscoresInNumericLiterals: Number 9.001181796295986 should separate every third digit with an underscore
+src/test/Calculatortest.java:103:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:103:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:103:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan6' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:103:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan6' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:104:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:104:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:104:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:104:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:105:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:105:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:106:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:106:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:106:	UseUnderscoresInNumericLiterals: Number 225.95084645035038 should separate every third digit with an underscore
+src/test/Calculatortest.java:106:	UseUnderscoresInNumericLiterals: Number 225.95084645035038 should separate every third digit with an underscore
+src/test/Calculatortest.java:109:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:109:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:109:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan7' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:109:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan7' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:110:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:110:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:110:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:110:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:111:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:111:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:112:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:112:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:112:	UseUnderscoresInNumericLiterals: Number 8.330856852490644 should separate every third digit with an underscore
+src/test/Calculatortest.java:112:	UseUnderscoresInNumericLiterals: Number 8.330856852490644 should separate every third digit with an underscore
+src/test/Calculatortest.java:115:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:115:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:115:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan8' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:115:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan8' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:116:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:116:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:116:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:116:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:117:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:117:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:118:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:118:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:118:	UseUnderscoresInNumericLiterals: Number 0.1155485457945267 should separate every third digit with an underscore
+src/test/Calculatortest.java:118:	UseUnderscoresInNumericLiterals: Number 0.1155485457945267 should separate every third digit with an underscore
+src/test/Calculatortest.java:121:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:121:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:121:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan9' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:121:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan9' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:122:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:122:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:122:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:122:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:123:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:123:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:124:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:124:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:124:	UseUnderscoresInNumericLiterals: Number 2.04008159801594 should separate every third digit with an underscore
+src/test/Calculatortest.java:124:	UseUnderscoresInNumericLiterals: Number 2.04008159801594 should separate every third digit with an underscore
+src/test/Calculatortest.java:127:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:127:	CommentRequired: Public method and constructor comments are required
+src/test/Calculatortest.java:127:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan10' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:127:	MethodNamingConventions: The JUnit 4 test method name 'test_CalculateTan10' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/Calculatortest.java:128:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:128:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/test/Calculatortest.java:128:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:128:	ShortVariable: Avoid variables with short names like x
+src/test/Calculatortest.java:129:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:129:	LocalVariableCouldBeFinal: Local variable 'ans' could be declared final
+src/test/Calculatortest.java:130:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:130:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/Calculatortest.java:130:	UseUnderscoresInNumericLiterals: Number 0.452279348366655 should separate every third digit with an underscore
+src/test/Calculatortest.java:130:	UseUnderscoresInNumericLiterals: Number 0.452279348366655 should separate every third digit with an underscore
